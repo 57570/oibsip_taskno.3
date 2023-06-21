@@ -1,0 +1,128 @@
+body{
+    margin: 0;padding: 0;
+}
+
+.MainDisplay
+{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(135deg,#153677,#4e085f);
+    position: relative;
+}
+
+.MainDisplay h1{
+    color: white;
+    position: absolute;
+    margin-left: 45%;
+    font-size: 2rem;
+}
+
+.inputField{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 36%;
+    height: 7vh;
+    width: 25vw;
+    font-size: xx-large;
+    border-radius: 10px;
+}
+
+.addIcon{
+    color: white;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 63%;
+    cursor: pointer;
+}
+
+#PendingtasksBox{
+    background-color: white;
+    position: absolute;
+    height: 50vh;
+    width: 35vw;
+    margin-top: 40vh;
+    margin-left:10vw;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#PendingTasksBoxName{
+    color: white;
+    margin: 0;padding: 0;
+    font-size: xx-large;
+    margin-left: 19vw;
+    position: absolute;
+    margin-top: 33vh;
+    
+}
+
+#CompletedTasksBox{
+    color: white;
+    margin: 0;padding: 0;
+    font-size: xx-large;
+    margin-left: 70vw;
+    position: absolute;
+    margin-top: 33vh;
+}
+
+#CompletedTaskList{
+    background-color: white;
+    position: absolute;
+    height: 50vh;
+    width: 30vw;
+    margin-top: 40vh;
+    margin-left:60vw;
+    border-radius: 1rem;
+}
+
+.PendingTask{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: fit-content;
+}
+ 
+.TextBox input{
+    height: 35px;
+    width:  220px;
+    font-size: x-large;
+}
+
+.actions button{
+    margin-left: 15px;
+    height: 35px;
+}
+
+.Edit{
+    background: linear-gradient(135deg,#153677,#4e085f);
+    color: white;
+    width: 70px;
+    cursor: pointer;
+}
+
+.Delete
+{
+    background-color: crimson;
+    color: white;
+    width: fit-content;
+    cursor: pointer;
+    border: none;
+    width: 70px;
+}
+
+.Complete
+{
+    background-color: #82CD47;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 70px;
+}
+
+.CompletedTask{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: fit-content;
+}
